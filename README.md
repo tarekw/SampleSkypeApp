@@ -20,3 +20,7 @@ As the app is developed for Windows Phone, certain tools/libraries are required 
 5) Install Async CTP (http://www.microsoft.com/en-us/download/details.aspx?id=9983) <br>
 6) Open the solution file "SkypeTest.sln" and build/run the project <br>
 
+<img src="https://github.com/tarekw/SampleSkypeApp/raw/master/Screenshots/1.png" height="320px" />&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tarekw/SampleSkypeApp/raw/master/Screenshots/4.png" height="320px" />&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tarekw/SampleSkypeApp/raw/master/Screenshots/5.png" height="320px" />&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tarekw/SampleSkypeApp/raw/master/Screenshots/6.png" height="320px" />
