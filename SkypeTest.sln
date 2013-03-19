@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeTest", "SkypeTest\SkypeTest.csproj", "{9826416B-BF9D-41F3-B6B7-61418D13EE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeTest.Engine", "SkypeTest.Engine\SkypeTest.Engine.csproj", "{22736926-0D34-4A59-9755-931946791CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeTest.Backend.UnitTests", "SkypeTest.Backend.UnitTests\SkypeTest.Backend.UnitTests.csproj", "{87AEEF59-6C85-4909-AF99-A0538AF943BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeTest.UnitTest", "SkypeTest.UnitTest\SkypeTest.UnitTest.csproj", "{1C9114C0-3A89-497D-8D5E-108674DB5456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9826416B-BF9D-41F3-B6B7-61418D13EE96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{22736926-0D34-4A59-9755-931946791CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22736926-0D34-4A59-9755-931946791CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22736926-0D34-4A59-9755-931946791CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22736926-0D34-4A59-9755-931946791CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AEEF59-6C85-4909-AF99-A0538AF943BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AEEF59-6C85-4909-AF99-A0538AF943BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AEEF59-6C85-4909-AF99-A0538AF943BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AEEF59-6C85-4909-AF99-A0538AF943BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9114C0-3A89-497D-8D5E-108674DB5456}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

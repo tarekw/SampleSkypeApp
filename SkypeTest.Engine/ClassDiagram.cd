@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Models">
+    <Position X="4.969" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Listeners">
+    <Position X="2.75" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Engine">
+    <Position X="0.875" Y="0.5" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Factories">
+    <Position X="8.188" Y="0.562" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="Events and delegates">
+    <Position X="10.75" Y="0.5" Height="0.291" Width="1.387" />
+  </Comment>
+  <Class Name="SkypeTest.Engine.Enablers.BackendEnabler">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAACAAgAAAAIAAAAgAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\BackendEnabler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.DataFetcher">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAAAAgAAEAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\DataFetcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.LocalDataFetcher">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\DataFetcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.RemoteDataFetcher">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\DataFetcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.LoginVerifier">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAQAgAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\LoginVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.DummyLoginVerifier">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\LoginVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Enablers.RemoteloginVerifier">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\LoginVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Listeners.ContactChangedEventArgs">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Listeners\ContactsUpdateListner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Listeners.ContactsUpdateListner">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAggCAAAAAgAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Listeners\ContactsUpdateListner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkypeTest.Engine.Models.Contact" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAIAIAABgAAQAgAAAAAACMAAAEAAAAiA=</HashCode>
+      <FileName>Models\Contact.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SkypeTest.Engine.Models.ContactsResult">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SkypeTest.Engine.Models.Credentials">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAIAAAAAAAA=</HashCode>
+      <FileName>Models\Credentials.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SkypeTest.Engine.Enablers.Protocol">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enablers\BackendEnabler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SkypeTest.Engine.Listeners.ContactChangedEventHandler">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Listeners\ContactsUpdateListner.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
